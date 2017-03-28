@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+body{
+  width:500vw;
+  position:absolute;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  font-family:'Gulim';
+  color: #575554;
+}
+.section{
+  position: relative;
+  margin:0px;
+  bottom:0px;
+  width:100vw;
+  float:left;
+  height:82vh;
+}
+
+.contents{
+  position: relative;
+  width: 500vw;
+}
+
+.top{
+  width: 100vw;
+  height: 82vh;
+}
+
+.header{
+  position: absolute;
+  width: 100vw;
+  height: 15vh;
+}
+
+.red{
+  background-color: #BF0008;
+}
+
+.main{
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  top: 15vh;
+}
+
+.logo{
+  position: absolute;
+  top: 5vw;
+  left: 33vw;
+}
+
+.menu-bar{
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  height: 12vh;
+  top: 85vh;
+}
+
+.menu-bar-inner{
+  display: table;
+  table-layout: fixed;
+  width: 60vw;
+  height: 12vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-bar-inner li{
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.about{
+  width: 100vw;
+  height: 82vh;
+}
+
+.title{
+  width: 100vw;
+  height: 15vh;
+  color: white;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.title h1{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 35px;
+  font-stretch: condensed;
+  font-weight: bold;
+}
+
+.about-contents{
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  top: 15vh;
+}
+
+.about-inner{
+  position: absolute;
+  width: 30vw;
+  height: 70vh;
+  margin-left: 35vw;
+  text-align: center;
+}
+
+.about-inner h2{
+  font-size: 23px;
+  font-weight: bold;
+  margin: 70px 0px;
+}
+
+.about-inner p{
+  line-height: 35px;
+}
+
+.schedule-contents{
+  position: relative;
+  width: 100vw;
+  height: 82vh;
+}
+
+.schedule-inner{
+  position: relative;
+  width: 98vw;
+  height: 70vh;
+  margin: 0 auto;
+}
+
+.item{
+  position: absolute;
+  width: 20vw;
+  height: 17vw;
+}
+
+.schedule-sentence{
+  position: absolute;
+  top: 5vh;
+  text-align: center;
+  visibility: hidden;
+}
+
+.item:hover .schedule-sentence{
+  visibility: visible;
+}
+
+.item img{
+  opacity: 0.7;
+}
+
+.schedule-sentence h3{
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 35px; 
+}
+
+.schedule-sentence p{
+  font-size: 14px;
+}
+
+.schedule1{
+  top: 5vh;
+}
+
+.schedule1 img{
+  width: 26vw;
+}
+
+.schedule2{
+  top: 5vh;
+  left: 20vw;
+}
+
+.schedule2 img{
+  width: 18vw;
+}
+
+.schedule2 .schedule-sentence{
+  margin-top: 0vh;
+  margin-left: -1vw;
+}
+
+.schedule3{
+  top: 5vh;
+  left: 40vw;
+}
+
+.schedule3 img{
+  width: 18vw;
+}
+
+.schedule3 .schedule-sentence{
+  margin-top: 0vh;
+  margin-left: 1vw;
+}
+
+.schedule4{
+  top: 5vh;
+  left: 60vw;
+}
+
+.schedule4 img{
+  width: 20.5vw;
+}
+
+.schedule5{
+  top: 5vh;
+  left: 79vw;
+}
+
+.schedule5 img{
+  width: 27vw;
+}
+
+.schedule5 .schedule-sentence{
+  margin-top: 0vh;
+  margin-left: -1vw;
+}
+
+.schedule6{
+  top: 30vh;
+  left: 9vw;
+}
+
+.schedule6 img{
+  width: 20vw;
+}
+
+.schedule7{
+  top: 30vh;
+  left: 30vw;
+}
+
+.schedule7 img{
+  width: 20.5vw;
+}
+
+.schedule8{
+  top: 30vh;
+  left: 50vw;
+}
+
+.schedule8 img{
+  width: 25.5vw;
+}
+
+.schedule9{
+  top: 27vh;
+  left: 67vw;
+}
+
+.schedule9 .schedule-sentence{
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+
+.schedule9 img{
+  width: 28vw;
+}
+
+.schedule9 span{
+  font-size: 19px;
+}
+
+.oriter{
+  position: relative;
+}
+
+.oriter-inner{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.oriter-box{
+  position: absolute;
+  width: 28vw;
+  top: 20vh;
+  height: 60vh;
+  text-align: center;
+}
+
+.oriter-box img{
+  width: 70%;
+}
+
+.NOriter{
+  left: 36vw;
+}
+
+.OOriter{
+  left: 65vw;
+}
+
+.Oriter-Member{
+  position: absolute;
+  width: 7em;
+  height: 2em;
+  bottom: 0vh;
+  left: 10vw;
+  border: 3px solid #575554;
+  display: table;
+}
+
+.Oriter-Member p{
+  background-color: white;
+  color: #575554;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  transition: 0.15s;
+}
+
+.Oriter-Member p:hover{
+  background-color: #C7000D;
+  color: white;
+}
+
+.freshman{
+  position: relative;
+}
+
+.freshman-inner{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.freshman-box{
+  position: absolute;
+  width: 28vw;
+  top: 25vh;
+  height: 60vh;
+  text-align: center;
+}
+
+.NF{
+  left: 36vw;
+}
+
+.OF{
+  left: 68vw;
+}
+
+.Freshman-Member{
+  position: absolute;
+  width: 8em;
+  height: 2em;
+  bottom: 15vh;
+  left: 8.5vw;
+  border: 3px solid #575554;
+  display: table;
+}
+
+.Freshman-Member p{
+  background-color: white;
+  color: #575554;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  transition: 0.15s;
+}
+
+.Freshman-Member p:hover{
+  background-color: #C7000D;
+  color: white;
+}
